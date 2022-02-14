@@ -52,17 +52,17 @@ end
 # Part 2
 
 def hello(name)
-  # YOUR CODE HERE
+  # returning the name that is passed through method
   "Hello, "+name
 end
 
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  # Using regular expression to check if string starts with a consonants
   s =~ /\A(?=[^aeiou])(?=[a-z])/i
 end
 
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+  # find a string whose binary is a multiple of 4. 
   if s.length == 1 and s[0] == '0'
     return true
   end
